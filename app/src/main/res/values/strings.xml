@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppComponentes</string>
+    <string name="valingresar">INGRESAR AL APP</string>
+    <string name="valnombres">Ingrese sus nombres</string>
+    <string name="valapellidos">Ingrese sus apellidos</string>
+    <string name="valgenero">Seleccione su genero</string>
+    <string name="valmasculino">Masculino</string>
+    <string name="valfemenino">Femenino</string>
+    <string name="valotros">Otros</string>
+    <string name="valhobbis">Seleciones sus Hobbies</string>
+    <string name="cbfutbol">Futbol</string>
+    <string name="cbarte">Diseño Artistico</string>
+    <string name="valotroshobbies">Otros Hobbies</string>
+    <string name="valestadocivil">Seleccione su estado civil</string>
+    <string name="valnotifivar">¿Desea recibir notificaciones?</string>
+    <string name="valregistrar">REGISTRAR PERSONA</string>
+    <string name="vallistado">LISTA PERSONAS</string>
+    <string name="valtitulolistado">LISTA DE PERSONAS</string>
+</resources>

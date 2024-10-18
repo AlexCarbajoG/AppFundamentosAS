@@ -20,7 +20,7 @@ class RegistroActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         binding = ActivityRegistroBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding
+        binding.btnregistrar.setOnClickListener(this)
 
     }
 
@@ -45,11 +45,13 @@ class RegistroActivity : AppCompatActivity(), View.OnClickListener {
         return respuesta
     }
 
-    fun validaHobbies():Boolean{
+    fun validarHobbies():Boolean {
         var respuesta = false
         if(binding.cbfutbol.isChecked ||
-               )
-
+            binding.cbarte.isChecked ||
+            binding.cbotros.isChecked)
+            respuesta = true
+        return respuesta
     }
 
     fun validarFormulario():Boolean{
